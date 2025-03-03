@@ -3,7 +3,7 @@ import os
 from collections import Counter
 
 # Указываем путь к файлу
-file_path = r"C:\Skillfactory\PythonProject3\orders_july_2023.json.json"  # Убрано двойное расширение
+file_path = r"C:\Skillfactory\PythonProject3\orders_july_2023.json"
 
 with open("orders_july_2023.json", "r", encoding = "utf - 8") as my_file:
     orders = json.load(my_file)
